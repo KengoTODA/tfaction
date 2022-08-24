@@ -32,8 +32,8 @@ target_groups:
 
 - working_directory: get-target-config/tests/gcp/
   target: gcp/
-  gcs_bucket_name_plan_file: '<GCP Bucket Name for Terraform Plan File>'
-  gcs_bucket_name_tfmigrate_history: '<GCP Bucket Name for tfmigrate history files>'
+  gcs_bucket_name_plan_file: '<GCS Bucket Name for Terraform Plan File>'
+  gcs_bucket_name_tfmigrate_history: '<GCS Bucket Name for tfmigrate history files>'
   template_dir: templates/gcp
   terraform_plan_config:
     gcp_service_account: terraform-plan@example.iam.gserviceaccount.com
